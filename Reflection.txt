@@ -1,8 +1,0 @@
-Reflection:
-
-Effects of P, I and D:
-Value of coefficient of P (proportional error) will decide how fast car will come to desired trajectory.
-Value of coefficient of D (derivative error) will be added based on rate of change in CTE hence it will reduce oscillations of the car in simulator. Value of coefficient of I will correct bias if system have any.
-
-Tuning parameters:
-First I started with Kp and increased it until car was able to come to center of the track as fast as it can. Then I increased Kd until car oscillations were minimal. Then I started with very small value of Ki and increased until car seems stable. At the end I decided to use these parameters: [Kp=0.2,Ki=0.0005,Kd=3].  
